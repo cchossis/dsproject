@@ -12,3 +12,7 @@ RoxygenNote: 7.1.1
 Imports: usethis, tools, haven, readxl, vroom, utils
 URL: https://github.com/cchossis/dsproject
 BugReports: https://github.com/cchossis/dsproject/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
