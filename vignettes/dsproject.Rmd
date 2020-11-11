@@ -1,0 +1,28 @@
+---
+title: "dsproject.package"
+author: "Camille P. Chossis"
+date: "11/03/2020"
+output: html_document
+---
+
+Basic package to streamline basic tasks in R
+
+
+
+The make_project() function will automatically set up a project. Included folders, Git connection, working directory and ReadMe file can all be customized (see help file).
+
+```{r, eval=FALSE}
+make_project(project_name)
+```
+
+The use() function will automatically load a package and download it if necessary.
+
+```{r, eval=FALSE}
+use(package_name)
+```
+
+The import() function will automatically detect a file format and try to import it into the Global Environment as either a data.frame or a tibble. See the help file for a list of supported format.
+
+```{r, eval=FALSE}
+df <- import(file)
+```

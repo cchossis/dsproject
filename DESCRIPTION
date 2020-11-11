@@ -10,3 +10,5 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Imports: usethis, tools, haven, readxl, vroom, utils
+URL: https://github.com/cchossis/dsproject
+BugReports: https://github.com/cchossis/dsproject/issues
